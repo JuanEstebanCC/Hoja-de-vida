@@ -5,46 +5,13 @@ body{
 background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  
 background: linear-gradient(to right, #0f3443, #34e89e);
 }
+/* Section - Contenedores principales */
 .container{
     padding: 01%;
     padding-top: 25px;
+    padding-bottom: -20px;
 }
-.name {
-    padding-top: 20px;
-    color: #2D354A;
-    font-size: 19px;
-    text-align: center;
-    align-items: center;
-
-}
-.v1{
-    border-left: 2.5px solid #0ab581;
-        height: 20px;
-        margin-left: 1%;
-  }
-
-.typewriter {
-    font-family: Courier, monospace;
-    display: inline-block;
-    text-align: center;
-}
-
-.typewriter-text {
-    display: inline-block;
-  	overflow: hidden;
-  	letter-spacing: 2px;
- 	animation: typing 3s steps(20, end), blink .35s step-end infinite;
-    white-space: nowrap;
-    font-size: 14px;
-    font-weight: 700;
-    border-right: 3px solid orange;
-    box-sizing: border-box;
-    
-}
-
-.text-title {
-    font-size: 14px;
-}
+/* Cartas principales */ 
 .card{
     background-color: white;
     border-radius: 19px;
@@ -90,7 +57,17 @@ box-shadow: 5px 6px 12px -3px #000000;
      opacity: 0.82;
      height: 600px;
 }
+/* Carta número 1 / Perfil */
+/* Section  - Foto de perfil */
+  /* Nombre principal*/ 
+.name {
+    padding-top: 18px;
+    color: #2D354A;
+    font-size: 23px;
+    text-align: center;
+    align-items: center;
 
+}
 /* Imagen de perfil  */
 .avatar-holder{
     display: block;
@@ -101,9 +78,64 @@ box-shadow: 5px 6px 12px -3px #000000;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    max-width: 100%;
+    padding: 3px;
  }
+/* Icono de la planta */
+ .icon-plant{
+     text-align: center;
+ }
+/* Animación del texto (Growing developer)*/
+.typewriter {
+    font-family: Courier, monospace;
+    display: inline-block;
+    text-align: center;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3s steps(20, end), blink .35s step-end infinite;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+    border-right: 3px solid orange;
+    box-sizing: border-box;
+    margin-top: -08px;
+    margin-bottom: 1.5px;
+}
+
+
+/* Iconos de la biografía */
+.icons-bio{
+    margin-top:3px;
+    padding-left: 3.5px;
+    margin-left: 2px;
+    margin-bottom: 8px;
+    line-height: 150px;
+        text-align: center;
+}
+/* Linea azul a la izquierda  */
+.v1{
+    border-left: 2.8px solid #0ab581;
+    height: 25px;
+    margin-left: 1%;
+    text-align: left;
+  
+  }
+.biografia{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-title {
+    font-size: 14px;
+}
+
+
+/* Redes sociales */ 
+
 .social-media{
     align-content: center;
     width: 280px;
@@ -115,11 +147,35 @@ box-shadow: 5px 6px 12px -3px #000000;
     padding: 10px;
     text-decoration: none;
     color: #0ab581;
+    opacity: 0.82;
+    border-radius: 19px;
+    align-content: center;
   }
   
-  .fa:hover {
-    color: #000;
+.fa:hover {
+    color: lightgreen;
   }
+
+/* Botón de contacto */
+.btn{
+    padding: 12px 25px;
+    background: #34e89e;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    align-content: center;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+.btn:hover{
+    background: transparent;
+    color:#34e89e;
+    border: 2px solid ;
+}
+
   /*Animations */
   @keyframes typing {
     from { 

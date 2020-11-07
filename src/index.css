@@ -8,6 +8,7 @@ body{
     box-sizing: border-box;
    
 }
+/* Contenedor principal / carta*/
 .card-container{
     width: 300px;
     height: 430px;
@@ -21,6 +22,26 @@ body{
     overflow: hidden;
     display: inline-block;
 }
+/* Parte superior del container */
+.upper-container{
+    height: 150px;
+    background: #34e89e;
+}
+/* Imagen del contenedor*/
+.image-container{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 4px;
+    transform: translate(100px,100px);
+}
+.image-container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+/* Animación del texto de la profesión */
 .typewriter {
     font-family: Courier, monospace;
     display: inline-block;
@@ -40,50 +61,36 @@ body{
     box-sizing: border-box;
     
 }
-  .upper-container{
-    height: 150px;
-    background: #34e8ca;
-}
-    .image-container{
-    background: white;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    padding: 4px;
-    transform: translate(100px,100px);
-    }
-    .image-container img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    }
-    .lower-container{
+/* Parte baja del container / carta */
+.lower-container{
     height: 280px;
     background: #FFF;
     padding: 20px;
     padding-top: 0px;
     text-align: center;
-    }
+}
+/* Textos y parrafos */
     .lower-container h3, h4{
     box-sizing: border-box;
     line-height: .6;
     padding-top: 20px;
     margin-bottom: -8px;
     font-weight: lighter;
-    }
+}
     .lower-container h4{
     color: black;
     opacity: .6;
     font-weight: bold;
-    }
-    .lower-container p{
+}
+ .lower-container p{
     font-size: 16px;
-    color: gray;
+    color: black;
     margin-bottom: 30px;
-    }
-    .lower-container .btn{
+}
+/* Botón y animación del hover */
+.lower-container .btn{
     padding: 12px 25px;
-    background: #34e8ca;
+    background: #34e89e;
     border: none;
     color: white;
     border-radius: 30px;
@@ -95,9 +102,10 @@ body{
     }
 .lower-container .btn:hover{
     background: transparent;
-    color: #34e8ca;
-    border: 2px solid;
+    color:#34e89e;
+    border: 2px solid ;
 }
+/* Animations */
     @keyframes typing {
         from { 
             width: 0% 
