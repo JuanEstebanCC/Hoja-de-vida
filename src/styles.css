@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&display=swap');
+body{
+    font-family: 'Dosis';
+    background: #34e89e;  
+background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  
+background: linear-gradient(to right, #0f3443, #34e89e);
+}
+.container{
+    padding: 01%;
+    padding-top: 25px;
+}
+.name {
+    padding-top: 20px;
+    color: #2D354A;
+    font-size: 19px;
+    text-align: center;
+    align-items: center;
+
+}
+.v1{
+    border-left: 2.5px solid #0ab581;
+        height: 20px;
+        margin-left: 1%;
+  }
+
+.typewriter {
+    font-family: Courier, monospace;
+    display: inline-block;
+    text-align: center;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3s steps(20, end), blink .35s step-end infinite;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+    border-right: 3px solid orange;
+    box-sizing: border-box;
+    
+}
+
+.text-title {
+    font-size: 14px;
+}
+.card{
+    background-color: white;
+    border-radius: 19px;
+    padding: 20px;
+    
+    -webkit-box-shadow: 5px 6px 6px 0px #000000; 
+box-shadow: 5px 6px 12px -3px #000000;
+    width: 280px;
+    height: 600px;
+    opacity: 0.82;
+}
+.card-2{
+    background-color: white;
+    border-radius: 19px;
+    padding: 20px;
+    margin-left: 8px;
+    -webkit-box-shadow: 5px 6px 6px 0px #000000; 
+box-shadow: 5px 6px 12px -3px #000000;
+    width: 550px;
+    height: 345px;
+    opacity: 0.82;
+}
+.card-3{
+    background-color: white;
+  border-radius: 19px;
+  padding: 20px;
+  margin-left: 8px;
+  -webkit-box-shadow: 5px 6px 6px 0px #000000; 
+box-shadow: 5px 6px 12px -3px #000000;
+   width: 550px;
+   opacity: 0.82;
+   height: 250px;
+   margin-top: 05px;
+}
+.card-4{
+    background-color: white;
+    border-radius: 19px;
+    padding: 20px;
+    
+    -webkit-box-shadow: 5px 6px 6px 0px #000000; 
+  box-shadow: 5px 6px 12px -3px #000000;
+     width: 280px;
+     opacity: 0.82;
+     height: 600px;
+}
+
+/* Imagen de perfil  */
+.avatar-holder{
+    display: block;
+    height: 100px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+ }
+.social-media{
+    align-content: center;
+    width: 280px;
+    height: 50px;
+}
+
+.fa {
+    font-size: 22px;
+    padding: 10px;
+    text-decoration: none;
+    color: #0ab581;
+  }
+  
+  .fa:hover {
+    color: #000;
+  }
+  /*Animations */
+  @keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
