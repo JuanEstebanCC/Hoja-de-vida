@@ -20,7 +20,6 @@ background: linear-gradient(to right, #0f3443, #34e89e);
     background-color: white;
     border-radius: 19px;
     padding: 20px;
-    
     -webkit-box-shadow: 5px 6px 6px 0px #000000; 
 box-shadow: 5px 6px 12px -3px #000000;
     width: 280px;
@@ -35,7 +34,7 @@ box-shadow: 5px 6px 12px -3px #000000;
     -webkit-box-shadow: 5px 6px 6px 0px #000000; 
 box-shadow: 5px 6px 12px -3px #000000;
     width: 550px;
-    height: 345px;
+    height: 415px;
     opacity: 0.82;
 }
 .card-3{
@@ -47,8 +46,8 @@ box-shadow: 5px 6px 12px -3px #000000;
 box-shadow: 5px 6px 12px -3px #000000;
    width: 550px;
    opacity: 0.82;
-   height: 250px;
-   margin-top: 05px;
+   height: 180px;
+   margin-top: 5px;
 }
 .card-4{
     background-color: white;
@@ -149,11 +148,13 @@ box-shadow: 5px 6px 12px -3px #000000;
 .other-card-title{
     margin-left: 18px;
     margin-top: -19px;
-    margin-bottom: -10px;
+    margin-bottom: -05px;
     font-size: 19px;
 }
 .solid{
     background-color: turquoise;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 /* Redes sociales */ 
 
@@ -224,16 +225,22 @@ box-shadow: 5px 6px 12px -3px #000000;
 .desarrollo-title{
     margin-left: 11px;
     margin-bottom: 15px;
-    margin-top: -15px;
+    margin-top: -11px;
 }
 .google-cloud-title{
     margin-left: 11px;
     margin-bottom: 0px;
     margin-top: 07px;
 }
+.linux-title{
+    margin-top: -08px;
+    margin-left: 11px;
+    margin-bottom: -10px;
+}
 .google-cloud-badges{
     margin-top: 5px;
     text-align: center;
+    margin-bottom: 15px;
 }
   /*Animations */
   @keyframes typing {
