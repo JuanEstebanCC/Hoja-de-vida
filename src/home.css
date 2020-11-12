@@ -242,6 +242,17 @@ box-shadow: 5px 6px 12px -3px #000000;
     text-align: center;
     margin-bottom: 15px;
 }
+
+/* Hobbies Section */
+.hobbies-section{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.subtitles-hobbies{
+    margin-top: 3px;
+    margin-left:60px;
+    word-spacing: 51px;
+}
   /*Animations */
   @keyframes typing {
     from { 
