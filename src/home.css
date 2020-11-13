@@ -51,6 +51,7 @@ box-shadow: 5px 6px 12px -3px #000000;
 }
 .card-4{
     background-color: white;
+    position: relative;
     border-radius: 19px;
     padding: 20px;
     -webkit-box-shadow: 5px 6px 6px 0px #000000; 
@@ -180,25 +181,7 @@ box-shadow: 5px 6px 12px -3px #000000;
     color: lightgreen;
   }
 
-/* Botón de contacto */
-.btn{
-    padding: 12px 25px;
-    background: #34e89e;
-    border: none;
-    color: white;
-    border-radius: 30px;
-    align-content: center;
-    font-size: 12px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all .3s ease-in;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-  }
-.btn:hover{
-    background: transparent;
-    color:#34e89e;
-    border: 2px solid ;
-}
+
 
 /* Skills Section*/
 
@@ -253,6 +236,34 @@ box-shadow: 5px 6px 12px -3px #000000;
     margin-left:60px;
     word-spacing: 51px;
 }
+
+/* Lenguajes */
+.progress-bar-section{
+    display: inline;
+}
+
+ /* Botón de contacto */
+
+.boton{
+    padding: 12px 25px;
+    background: #34e89e;
+    position: absolute;
+    left: 30px;
+    top: 500px;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    align-content: center;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+.boton:hover{
+    background: transparent;
+    color:#34e89e;
+    border: 2px solid ;
+}   
   /*Animations */
   @keyframes typing {
     from { 
