@@ -152,6 +152,7 @@ box-shadow: 5px 6px 12px -3px #000000;
     margin-bottom: -05px;
     font-size: 19px;
 }
+
 .solid{
     background-color: turquoise;
     margin-top: 5px;
@@ -239,9 +240,42 @@ box-shadow: 5px 6px 12px -3px #000000;
 
 /* Lenguajes */
 .progress-bar-section{
-    display: inline;
+    
 }
 
+/* Sección de Idiomas */
+ /* Barra de progreso */
+.progress-bar-section{
+  
+}
+.radialProgressBar {
+    border-radius: 50%;
+    -webkit-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+    width: 100px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #ddd;
+    margin-left: 10px;
+    float:left;
+  }
+  .radialProgressBar .overlay {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+    padding-top: 30%;
+  }
+
+.progress-60 {
+    background-image: -webkit-linear-gradient(left, #028cd5 50%, transparent 50%), -webkit-linear-gradient(36deg, #028cd5 50%, #ddd 50%);
+    background-image: linear-gradient(90deg, #028cd5 50%, transparent 50%), linear-gradient(54deg, #028cd5 50%, #ddd 50%);
+  }
+  
  /* Botón de contacto */
 
 .boton{
