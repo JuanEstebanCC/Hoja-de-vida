@@ -7,8 +7,6 @@
   display: flex;
   background: #ddd;
   margin: 20px auto;
-  
-
 }
 .radialProgressBar .overlay {
   border-radius: 50%;
