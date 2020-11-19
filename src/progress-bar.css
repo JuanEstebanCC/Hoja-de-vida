@@ -2,26 +2,16 @@
   box-sizing: border-box;
 }
 
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-}
 
 .radialProgressBar {
   border-radius: 50%;
-  -webkit-transform: translate(50%, 50%);
-          transform: translate(50%, 50%);
   width: 100px;
   height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: #ddd;
-  margin: 20px;
-  float:left;
+  margin: 20px auto;
+  
+
 }
 .radialProgressBar .overlay {
   border-radius: 50%;
