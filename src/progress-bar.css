@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 
 
 .radialProgressBar {
@@ -24,15 +21,14 @@
 }
 
 
-
 .progress-10 {
   background-image: -webkit-linear-gradient(36deg, #ddd 50%, transparent 50%), -webkit-linear-gradient(left, #028cd5 50%, #ddd 50%);
   background-image: linear-gradient(54deg, #ddd 50%, transparent 50%), linear-gradient(90deg, #028cd5 50%, #ddd 50%);
 }
 
-
 .progress-60 {
   background-image: -webkit-linear-gradient(left, #028cd5 50%, transparent 50%), -webkit-linear-gradient(36deg, #028cd5 50%, #ddd 50%);
   background-image: linear-gradient(90deg, #028cd5 50%, transparent 50%), linear-gradient(54deg, #028cd5 50%, #ddd 50%);
 }
+
 
