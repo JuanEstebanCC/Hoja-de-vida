@@ -15,7 +15,7 @@ background: linear-gradient(to right, #0f3443, #34e89e);
     margin-top: 15px;
     margin-bottom: 25px;
 }
-/* Cartas principales */ 
+/* Cards principales */ 
 .card{
     background-color: white;
     border-radius: 19px;
@@ -173,8 +173,8 @@ box-shadow: 5px 6px 12px -3px #000000;
   }
 
 
-
-/* Skills Section*/
+/* Carta número 2 / Skills */
+/* Desarrollo - Section*/
 
 .desarrollo-section{
     display: inline ;
@@ -182,10 +182,10 @@ box-shadow: 5px 6px 12px -3px #000000;
 
 }
 
-.desarrollo-progress-section{
-    
+.desarrollo-progress-section{    
     display: inline-flex;
 }
+
 .skills-logo{
     margin-left: 29px;
     margin-right: 29.5px;
@@ -216,7 +216,7 @@ box-shadow: 5px 6px 12px -3px #000000;
     text-align: center;
     margin-bottom: 15px;
 }
-
+/* Carta número 3 / Hobbies */
 /* Hobbies Section */
 .hobbies-section{
     margin-top: 35px;
@@ -228,17 +228,42 @@ box-shadow: 5px 6px 12px -3px #000000;
     word-spacing: 51px;
 }
 
-/* Lenguajes */
-.progress-bar-section{
-    
-}
+/* Carta número 4 / Idiomas */
 
-/* Sección de Idiomas */
  /* Barra de progreso */
 
+ .radialProgressBar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background: #ddd;
+    margin: 20px auto;
+  }
+  .radialProgressBar .overlay {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+    padding-top: 30%;
+  }
+  
+  
+  .progress-10 {
+    background-image: -webkit-linear-gradient(36deg, #ddd 50%, transparent 50%), -webkit-linear-gradient(left, #028cd5 50%, #ddd 50%);
+    background-image: linear-gradient(54deg, #ddd 50%, transparent 50%), linear-gradient(90deg, #028cd5 50%, #ddd 50%);
+  }
+  
+  .progress-60 {
+    background-image: -webkit-linear-gradient(left, #028cd5 50%, transparent 50%), -webkit-linear-gradient(36deg, #028cd5 50%, #ddd 50%);
+    background-image: linear-gradient(90deg, #028cd5 50%, transparent 50%), linear-gradient(54deg, #028cd5 50%, #ddd 50%);
+  }
+  
+  
 
-
- /* Botón de contacto */
+ /* Botones */
 
 .boton{
     padding: 12px 25px;
